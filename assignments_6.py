@@ -8,14 +8,33 @@ vowels = ['a', 'e', 'o', 'u', 'i', 'y']
 
 for name in names_list:
     print(f"Old name is: {name}")
-    for letter in name:
-        if letter.lower() in vowels:
+    for letter in name.lower():
+        if letter in vowels:
             name = name.replace(letter, "")
     
     print(f"New name is {name}")
     print("="*15)
 
         
+
+
+# %%
+# Assignment 2: Create a loop that prints the name of the day for the following 10 days
+
+#%%
+from datetime import date, timedelta
+
+#%%
+today_date = date.today()
+
+# %%
+for day_num in range(0, 10):
+    print(day_num)
+    new_date = today_date + timedelta(day_num + 1)
+
+    new_day = new_date.strftime("%A")
+    print(new_day)
+
 
 
 # %%
