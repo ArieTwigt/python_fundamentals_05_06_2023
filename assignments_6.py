@@ -29,7 +29,6 @@ today_date = date.today()
 
 # %%
 for day_num in range(0, 10):
-    print(day_num)
     new_date = today_date + timedelta(day_num + 1)
 
     new_day = new_date.strftime("%A")
