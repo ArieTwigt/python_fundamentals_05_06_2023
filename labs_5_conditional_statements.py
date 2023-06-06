@@ -41,7 +41,7 @@ while donation_amount < donation_max:
 
 
 # %%
-age = 19
+age = 101
 
 
 if age < 21:
@@ -50,3 +50,4 @@ elif age > 100:
     print("Ook niet")
 else:
     print("Ja")
+# %%
