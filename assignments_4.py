@@ -34,4 +34,11 @@ radius = diameter / 2
 size = pow(radius, 2) * pi
 print(size)
 
+# Assignment 3
+
+# %%
+import os
+
+#%%
+current_files_folders = os.listdir()
 # %%
