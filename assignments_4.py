@@ -41,4 +41,9 @@ import os
 
 #%%
 current_files_folders = os.listdir()
+
+# Assignment 4
+# %%
+os.mkdir("our_functions")
+
 # %%
